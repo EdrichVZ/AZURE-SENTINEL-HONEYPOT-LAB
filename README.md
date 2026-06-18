@@ -22,6 +22,7 @@ This project demonstrates the deployment of a Windows 10 honeypot in Microsoft A
 13. Check IP address location with ipinfo of user trying to login.
 14. Create Watchlist in Sentinel and Upload IP Geolocation Data
 15. Inspect new enriched logs with geo locations of attacker IP
+16. Create a Attack Map
 ## Skills Demonstrated:
 
 - Microsoft Azure
