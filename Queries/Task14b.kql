@@ -5,4 +5,4 @@ let WindowsEvents = SecurityEvent
 | order by TimeGenerated desc
 | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
 WindowsEvents
-| project TimeGenerated, Computer, IpAddress, cityname, countryname, latitude, longitude
+| project TimeGenerated, Computer,AttackerIp = IpAddress, cityname, countryname, latitude, longitude
