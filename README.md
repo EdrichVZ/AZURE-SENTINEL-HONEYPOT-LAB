@@ -3,7 +3,15 @@ This project demonstrates the deployment of a Windows 10 honeypot in Microsoft A
 
 ## Objectives:
 1. Create a Resource Group
-
+2. Create Virtual Network
+3. Create Virtual Machine (Honeypot/Attack Surface)
+4. Make Network Security Group Vulnerable (Open Firewall to public internet)
+   - Deleted Remote Desktop Inbound Rule
+   - Added a ANY connection Inbound Rule (DANGEROUS)
+5. Disable VM internal Firewall
+6. Test Public Access by Pinging VM Public IP Address with Local Machine
+7. Explore some VM Event Logs after deliberately failing to Login into the VM
+8. 
 
 ## Skills Demonstrated:
 
@@ -25,7 +33,7 @@ This project demonstrates the deployment of a Windows 10 honeypot in Microsoft A
 - Azure Virtual Machines
 - Microsoft Sentinel
 - Log Analytics Workspace
-- Windows 10
+- Windows 11
 - Azure Monitor Agent (AMA)
 - Data Collection Rules (DCR)
 - KQL
