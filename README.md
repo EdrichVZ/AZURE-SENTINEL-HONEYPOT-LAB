@@ -20,7 +20,7 @@ This project demonstrates the deployment of a Windows 10 honeypot in Microsoft A
 11. View Security Logs of VM in Log Analytics workspace
 12. Query Log Repository with KQL to Identify Failed Login Attempts on VM
 13. Check IP address location with ipinfo of user trying to login.
-14. Uploading our Geolocation Data to the SIEM
+14. Create Watchlist in Sentinel and Uploading our Geolocation Data
 15. 
 ## Skills Demonstrated:
 
