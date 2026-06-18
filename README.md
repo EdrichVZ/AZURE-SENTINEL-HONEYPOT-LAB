@@ -10,9 +10,16 @@ This project demonstrates the deployment of a Windows 10 honeypot in Microsoft A
    - Added a ANY connection Inbound Rule (DANGEROUS)
 5. Disable VM internal Firewall
 6. Test Public Access by Pinging VM Public IP Address with Local Machine
-7. Explore some VM Event Logs after deliberately failing to Login into the VM
-8. 
-
+7. Explore some VM Security Event Logs after deliberately failing to Login into the VM (Event 4625 Login Failure)
+8. Create Log Analytics WorkSpace
+9. Create Sentinel Instance (SIEM)
+10. Configure Azure Monitoring Agent Security Event Connector
+    - Connection between VM and Log Analytics Workspace
+    - Install Windows Security Events Connector
+    - Manage, Windows Security Events via AMA, Create Data Collection Rule
+11. View Security Logs of VM in Log Analytics workspace
+12. Querying Our Log Repository with KQL
+13. 
 ## Skills Demonstrated:
 
 - Microsoft Azure
