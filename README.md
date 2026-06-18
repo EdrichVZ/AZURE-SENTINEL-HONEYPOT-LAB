@@ -2,12 +2,11 @@
 This project demonstrates the deployment of a Windows 10 honeypot in Microsoft Azure and the collection of security telemetry using Microsoft Sentinel. The environment was configured to intentionally expose a virtual machine to the internet, collect failed authentication attempts, enrich attack data with geographic information, and visualize attack activity on a global map.
 
 ## Objectives:
-1. Setup Azure Subscription
-2. Create the Honey Pot (Azure Virtual Machine)
-3. Logging into the VM and inspecting logs
-4. Log Forwarding and KQL
-5. Log Enrichment and Finding Location Data
-6. Attack Map Creation
+1. Create the Honey Pot (Azure Virtual Machine)
+2. Logging into the VM and inspecting logs
+3. Log Forwarding and KQL
+4. Log Enrichment and Finding Location Data
+5. Attack Map Creation
 
 ## Skills Demonstrated:
 
