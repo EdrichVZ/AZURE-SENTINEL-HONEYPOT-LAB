@@ -1,1 +1,5 @@
+SecurityEvent
+| where Account == "//AccountName"
+| project TimeGenerated, Account, Computer, EventID, Activity, IpAddress
+
 
